@@ -1,0 +1,5 @@
+mountpoints:
+  /: https://drive.google.com/drive/folders/1c_UmpHBXPDKehJmv_d9bqomoFfJHq_iH
+
+folders:
+  /products/: /products/default
