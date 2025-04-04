@@ -21,7 +21,6 @@ export const priceFieldsFragment = `fragment priceFields on ProductViewPrice {
 
 export async function commerceEndpointWithQueryParams() {
   // Set Query Parameters so they can be appended to the endpoint
-  debugger;
   const urlWithQueryParams = new URL(await getConfigValue('commerce-endpoint'));
   urlWithQueryParams.searchParams.append('Magento-Environment-Id', await getConfigValue('commerce-environment-id'));
   urlWithQueryParams.searchParams.append('Magento-Website-Code', await getConfigValue('commerce-website-code'));
