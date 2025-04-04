@@ -226,10 +226,6 @@ fragment CART_FRAGMENT on Cart {
       currency
       value
     }
-    grand_total_excluding_tax {
-      currency
-      value
-    }
     applied_taxes {
       label
       amount {
