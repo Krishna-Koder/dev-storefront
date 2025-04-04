@@ -53,7 +53,6 @@ fragment CART_ITEM_FRAGMENT on CartItemInterface {
   uid
   quantity
   is_available
-  not_available_message
   errors {
     code
     message
@@ -93,14 +92,6 @@ fragment CART_ITEM_FRAGMENT on CartItemInterface {
         currency
       }
       label
-    }
-    original_item_price {
-      value
-      currency
-    }
-    original_row_total {
-      value
-      currency
     }
   }
 
